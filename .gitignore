@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.Python
+venv/
+.venv/
+backend/.venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# SQLite / local DB
+*.sqlite3
+*.db
+backend/data/*.db
+
+# Logs
+*.log
+
+# Build output
+coverage/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Large generated files
+*.joblib
+*.pkl
+*.h5
+*.pb
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
